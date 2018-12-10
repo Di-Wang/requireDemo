@@ -1,0 +1,66 @@
+.topNavList>div a:hover{color:#B3E5DD}
+.topNavList>div a:active{color:#fff}
+.topNavList>div a:link{color:#B3E5DD}
+.topNavList>div a:visited{color:#B3E5DD}
+/*topNav*/
+.topNavPub{
+	position:flex;
+    top:136px;
+    width:100%;
+}
+.topNavMax{
+	width:100%;
+	cursor:pointer;
+
+	/*border:1px solid red;*/
+}
+.topNavPub{width:100%}
+.topNav{
+	width:100%;
+	height:132px;
+	background:#26AD9C;
+}
+.topNav div{
+	float:left;
+	width:33.33%;
+	height:100%;
+	color:#bde9e4;
+	font-size:36px;
+	line-height:132px;
+	text-align:center;
+}
+/*点击出现菜单*/
+.topNavList{
+	position:absolute;
+	width:100%;
+	z-index:10;
+	background:rgba(0,0,0,0);
+}
+.topNavList>div{
+	float:left;
+	width:33.3%;
+	height:100%;
+	color:#bde9e4;
+	font-size:32px;
+	line-height:132px;
+	text-align:center;
+	background:#26ad9c;
+	/*position:relative;*/
+	display:none;
+}
+.topNavList>div>div:nth-child(1){
+	/*border:1px solid red;*/
+}
+/* 20181106 GongZiXi */
+.GZX_topNav_hover:hover{
+	background:#58BCAA;
+	color:#bde9e4;	
+}
+.GZX_topNav_hover2:hover{
+	color:#bde9e4;
+}
+/*topNav*/
+.titleChecked{
+    background:#58BCAA;
+	color:#bde9e4;
+}

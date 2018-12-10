@@ -1,0 +1,6 @@
+[
+		{
+			"add":"./static/image/banner_1.jpg",		
+			"mainColor":"#C6BDBB"
+		}
+		]

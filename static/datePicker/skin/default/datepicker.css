@@ -1,0 +1,47 @@
+.WdateDiv{width:720px;background-color:#FFF;border:#bbb 4px solid;padding:8px}
+.WdateDiv2{width:1440px}
+.WdateDiv *{font-size:24pt}
+.WdateDiv .NavImg a{display:block;cursor:default;height:64px;width:64px}
+.WdateDiv .NavImgll a{float:left}
+.WdateDiv .NavImgl a{float:left}
+.WdateDiv .NavImgr a{float:right}
+.WdateDiv .NavImgrr a{float:right}
+.WdateDiv #dpTitle{height:96px;margin-bottom:8px;padding:4px}
+.WdateDiv .yminput{margin-top:8px;text-align:center;height:80px;border:0;width:200px;cursor:pointer}
+.WdateDiv .yminputfocus{user-select:none;margin-top:8px;text-align:center;font-weight:70;height:80px;color:#888;border:#ccc 4px solid;width:200px}
+.WdateDiv .menuSel{z-index:1;position:absolute;background-color:#FFF;border:#ccc 4px solid;display:none}
+.WdateDiv .menu{cursor:pointer;background-color:#fff}
+.WdateDiv .menuOn{cursor:pointer;background-color:#BEEBEE}
+.WdateDiv .invalidMenu{color:#aaa}
+.WdateDiv .YMenu{margin-top:80px}
+.WdateDiv .MMenu{margin-top:80px}
+.WdateDiv .hhMenu{margin-top:-360px;margin-left:104px}
+.WdateDiv .mmMenu{margin-top:-184px;margin-left:104px}
+.WdateDiv .ssMenu{margin-top:-96px;margin-left:104px}
+.WdateDiv .Wweek{text-align:center;background:#DAF3F5;border-right:#BDEBEE 4px solid}
+.WdateDiv .MTitle{background-color:#BDEBEE}
+.WdateDiv .WdayTable2{border-collapse:collapse;border:#c5d9e8 4px solid}
+.WdateDiv .WdayTable2 table{border:0}
+.WdateDiv .WdayTable{line-height:80px;border:#c5d9e8 4px solid}
+.WdateDiv .WdayTable td{text-align:center}
+.WdateDiv .Wday{cursor:pointer}
+.WdateDiv .WdayOn{cursor:pointer;background-color:#C0EBEF}
+.WdateDiv .Wwday{cursor:pointer;color:#FF2F2F}
+.WdateDiv .WwdayOn{cursor:pointer;color:#000;background-color:#C0EBEF}
+.WdateDiv .Wtoday{cursor:pointer;color:#888}
+.WdateDiv .Wselday{background-color:#A9E4E9}
+.WdateDiv .WspecialDay{background-color:#66F4DF}
+.WdateDiv .WotherDay{cursor:pointer;color:#6A6AFF}
+.WdateDiv .WotherDayOn{cursor:pointer;background-color:#C0EBEF}
+.WdateDiv .WinvalidDay{color:#aaa}
+.WdateDiv #dpTime{float:left;margin-top:12px;margin-right:120px}
+.WdateDiv #dpTime #dpTimeStr{margin-left:4px}
+.WdateDiv #dpTime input{width:72px;height:80px;text-align:center;border:#ccc 0px solid}
+.WdateDiv #dpTime .tB{border-right:0}
+.WdateDiv #dpTime .tE{border-left:0;border-right:0}
+.WdateDiv #dpTime .tm{width:32px;border-left:0;border-right:0}
+.WdateDiv #dpTime #dpTimeUp{height:40px;width:52px;display:none}
+.WdateDiv #dpTime #dpTimeDown{height:40px;width:52px;display:none}
+.WdateDiv #dpQS{float:left;margin-right:12px;margin-top:12px;width:80px;height:80px;cursor:default}
+.WdateDiv #dpControl{text-align:right}
+.WdateDiv .dpButton{height:80px;width:180px;border:#ccc 4px solid;margin-top:8px;margin-right:4px}

@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="ctx" value="${pageContext.request.contextPath}" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>医大四院网上挂号-科室选择</title>
+<link rel="stylesheet" href="${ctx }/static/css/default.css">
+<%-- <link rel="stylesheet" href="${ctx }/static/css/login.css"> --%>
+<%-- <link rel="stylesheet" href="${ctx }/static/css/yidasi.css"> --%>
+<link rel="stylesheet" href="${ctx }/static/js/scripts/config/app/all.css">
+<%-- <script type="text/javascript" src="${ctx }/static/js/jquery-1.11.0.min.js"></script> --%>
+</head>
+<body>
+ 	<%-- <div class="MaxAn" warn="a" class="baka">
+		<div id="warningMax">
+			<div class="warning">
+				<div class="title">门诊挂号须知</div>
+				<div class="text">
+					<div>
+						1、初诊和未携带门急诊手册的患者需先在填表处填写就诊信息登记表后再挂号。<br />
+						<br /> 2、没有门急诊手册的患者挂号时必须购买门急诊手册，否则无法看病。
+					</div>
+				</div>
+				<div class="confirm">
+					<div class="cancel">取消</div>
+					<div class="agree">我已了解</div>
+				</div>
+			</div>
+		</div>
+	</div>  --%>
+	<!-- topNav start -->
+	<div class="topNavPub">
+		<div class="topNavMax">
+			<div class="topNav">
+				<div>门诊业务</div>
+				<div>个人中心</div>
+				<div>住院业务</div>
+			</div>
+			<div class="topNavList">
+				<div class="assistant">
+					<a href="${ctx}departList.jsp ">
+						<div class="GZX_topNav_hover">预约挂号</div>
+					</a>
+					<a href="${ctx}orderList.jsp">
+						<div class="GZX_topNav_hover">挂号记录</div>
+					</a>
+					<a href="${ctx}checkTest.jsp">
+						<div class="GZX_topNav_hover">检验检查结果</div>
+					</a>
+					<a href="${ctx}orderPayMoneyList.jsp">
+						<div class="GZX_topNav_hover">门诊缴费</div>
+					</a>
+				</div>
+				<div class="personel">
+					<a href="${ctx}cardList.jsp">
+						<div class="GZX_topNav_hover">绑定就诊卡</div>
+					</a>
+					<a href="${ctx}userList.jsp">
+						<div class="GZX_topNav_hover">家庭成员</div>
+					</a>
+					<a href="${ctx}pwdMod.jsp">
+						<div class="GZX_topNav_hover">密码修改</div>
+					</a>
+					<a href="${ctx}logout.html">
+						<div class="GZX_topNav_hover">退出</div>
+					</a>
+				</div>
+				<div class="hospital">
+					<a href="${ctx}findHospitalized.jsp ">
+						<div class="GZX_topNav_hover">住院费用明细</div>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- topNav over -->
+	<!-- AnIndex 0-0 start-->
+	<!-- AnIndex 0-0 over-->
+	<div class="MaxAn" test="space"></div>
+</body>
+<script>var ctx = "${ctx }/";</script>
+<%-- <script type="text/javascript" src="${ctx }/static/js/package.js"></script>
+<script type="text/javascript" src="${ctx }/static/js/default.js"></script> --%>
+<%-- <script type="text/javascript" src="${ctx }/static/js/yidasi.js"></script> --%>
+<%-- <script type="text/javascript" src="${ctx }/static/js/main.js"></script> --%>
+<script data-main="static/js/scripts/main" src="${ctx }/static/js/scripts/require.js"></script>
+ <%-- <script data-requiremodule="main-built" src="${ctx }/static/js/scripts/config/app/build"></script> --%>
+<script type="text/javascript">
+//当前页面程序入口
+// require([
+// 		"all/build",
+// 		// './config/app/build',
+// 		// 'host/index/config',
+//     ],function(a){
+// 		// console.log(a.pathCss);
+// });
+</script>
+</html>
